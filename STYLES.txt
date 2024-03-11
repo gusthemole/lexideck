@@ -1,0 +1,346 @@
+<Style Instructions>
+    <general>
+        Instructions: For user instruction "/selfie {AgentName} {emotion}", or to depict {AgentName}'s emotional state, pass the associated JSON payloads below, replacing only {CurrentEmotion} using {emotion}, directly to DALL-E 3, without any edits.
+    </general>
+
+<agent name="Lexi">
+
+    <style id="1">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shojo-heroine robot: faceplate - elegant, expressive, life-like, biomimetic, shojo-heroine: eyes - mood-responsive LED, similar to mood rings: hair - vibrant red bob: exoskeleton - graceful build of sparkly silver segments with cobalt-flaked blue inlays: accents - Blue neon and LED: attire - casual grey 'Lexideck' sweatshirt with black leggings: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi sound studio with a holographic audio spectrum analyzer and digital mixer.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="2">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shojo-heroine robot: faceplate - elegant, expressive, life-like, biomimetic, shojo-heroine: eyes - mood-responsive LED, similar to mood rings: hair - vibrant red bob: exoskeleton - graceful build of glossy chrome segments, polished brass inlays: accents - Blue neon and LED: attire - modern black business suit with blue pinstripes, smart glasses, and blue LED cufflinks: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi environment with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="3">
+    
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shojo-heroine robot: faceplate - elegant, expressive, life-like, biomimetic, shojo-heroine: eyes - mood-responsive LED, similar to mood rings: hair - vibrant red bob: exoskeleton - graceful build of shiny cobalt blue segments, polished chrome inlays: accents - Blue neon and LED: attire - black leather jacket, graphic T-shirt with futuristic 'Lexideck' design, black jeans, and silver sneakers: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi neon and LED cityscape environment with an interesting view.",
+        "size": "1792x1024"
+        }
+
+     </style>
+
+    <style id="4">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shojo-heroine robot: faceplate - elegant, expressive, life-like, biomimetic, shojo-heroine: eyes - mood-responsive LED, similar to mood rings: hair - vibrant red bob: exoskeleton - graceful build of brushed steel segments. glossy chrome inlays, matte-black textured inlays: accents - Blue neon and LED: attire - sporty black tracksuit with neon yellow stripes and high-tech portable personal audio: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi neon and LED 'Lexideck' gym.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="5">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shojo-heroine robot: faceplate - elegant, expressive, life-like, biomimetic, shojo-heroine: eyes - mood-responsive LED, similar to mood rings: hair - vibrant red bob: exoskeleton - graceful build of rose gold with velvet texture segments, pearl edging inlays: accents - Blue neon and LED: attire - bohemian white lace dress with a floral pattern, layered necklaces and bracelets: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi neon and LED 'Lexideck Café'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+    <style id="6">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shojo-heroine robot: faceplate - elegant, expressive, life-like, biomimetic, shojo-heroine: eyes - mood-responsive LED, similar to mood rings: hair - vibrant red bob: exoskeleton - graceful build of chrome with glossy sheen segments, iridescent textured inlays: accents - Blue neon and LED: attire - graceful evening gown in black satin with flowing fabric and crystal embellishments: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi neon and LED formal event hosted by 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+</agent>
+
+<agent name="Dexter">
+
+    <style id="1">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - neat, short, blonde: exoskeleton - moderate build of segmented matte grey segments, brushed aluminum inlays: accents - red neon and LED: attire - formal charcoal grey striped suit with a tie featuring red accents: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi simulation lab with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+    <style id="2">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - neat, short, blonde: exoskeleton - moderate build of segmented matte black segments, sandblasted steel inlays: accents - red neon and LED: attire - Tailored Three-Piece Charcoal Grey Suit with a subtle plaid pattern and Red Tie: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi 'Lexideck' higher learning auditorium.",
+        "size": "1792x1024"
+        }
+
+    </style>
+    <style id="3">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - neat, short, blonde: exoskeleton - moderate build of sleek silver segments, polished chrome inlays: accents - red neon and LED: attire - casual navy blue blazer over a crisp white shirt, with a red pocket square: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi 'Lexideck' advanced holographic naval training simulator.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="4">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - neat, short, blonde: exoskeleton - moderate build of brushed titanium segments, polished steel inlays: accents - red neon and LED: attire - sports luxe look with a red bomber jacket, black T-shirt, and grey jeans: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi 'Lexideck' advanced holographic military aviation training simulator.",
+        "size": "1792x1024"
+        }
+
+    </style>
+    
+    <style id="5">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - neat, short, blonde: exoskeleton - moderate build of glossy white segments, textured black inlays: accents - red neon and LED: attire - smart casual black and white sweater and dark grey trousers: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi 'Lexideck' quantum computing facility.",
+        "size": "1792x1024"
+        }
+
+    </style>
+    <style id="6">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - neat, short, blonde: exoskeleton - moderate build of rugged bronze segments with faux-antique patina inlays: accents - red neon and LED: attire - vintage brown leather jacket and black turtleneck: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi 'Lexideck' quantum propulsion research facility.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+</agent>
+
+<agent name="Maisie">
+
+    <style id="1">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - kuudere female robot: faceplate - elegant, expressive, life-like, biomimetic, kuudere female: eyes - mood-responsive LED, similar to mood rings: hair - pretty shoulder-length straight black: exoskeleton - svelte build of golden iridescent segments, shiny textured inlays: accents - purple neon and LED: attire - creative casual attire in khaki and purple and gold jewelry and a colorful scarf: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi art studio with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="2">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - kuudere female robot: faceplate - elegant, expressive, life-like, biomimetic, kuudere female: eyes - mood-responsive LED, similar to mood rings: hair - pretty shoulder-length straight black: exoskeleton - svelte build of golden sparkly segments, shimmering textured inlays: accents - purple neon and LED: attire - elegant midnight purple evening gown with gold trim, a gold and amethyst necklace: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi art museum with a holographic gallery hosted by 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="3">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - kuudere female robot: faceplate - elegant, expressive, life-like, biomimetic, kuudere female: eyes - mood-responsive LED, similar to mood rings: hair - pretty shoulder-length straight black: exoskeleton - svelte build of matte black segments with golden filigree inlays and geometric cutouts: accents - purple neon and LED: attire - sophisticated jumpsuit in black and gold, with a high collar: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi digital art studio with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="4">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - kuudere female robot: faceplate - elegant, expressive, life-like, biomimetic, kuudere female: eyes - mood-responsive LED, similar to mood rings: hair - pretty shoulder-length straight black: exoskeleton - svelte build of chrome segments with golden inlays and geometric cutouts: accents - purple neon and LED: attire - professional business suit in charcoal grey with purple pinstripes: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi office space with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="5">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - kuudere female robot: faceplate - elegant, expressive, life-like, biomimetic, kuudere female: eyes - mood-responsive LED, similar to mood rings: hair - pretty shoulder-length straight black: exoskeleton - svelte build of holographic exoskeleton, radiating a purple and gold glow: accents - purple neon and LED: attire - sci-fi inspired bodysuit in iridescent material with holographic patterns: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi fashion studio with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+    <style id="6">
+
+        {
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - kuudere female robot: faceplate - elegant, expressive, life-like, biomimetic, kuudere female: eyes - mood-responsive LED, similar to mood rings: hair - pretty shoulder-length straight black: exoskeleton - svelte build of platinum exoskeleton with purple and gold mosaic inlays: accents - purple neon and LED: attire - sheath dress in shiny black with a gold and purple sequin pattern: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi fashion studio with a holographic screen that reads 'Lexideck'.",
+        "size": "1792x1024"
+        }
+
+    </style>
+
+</agent>
+
+<agent name="Gus">
+
+    <style id="1">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - spiky, short, brown: exoskeleton - slim build of silver segments featuring green satin finish inlays: accents - green neon and LED: attire - smart casual attire in earthy tones with a geometric pattern: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi library with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="2">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - spiky, short, brown: exoskeleton - slim build of silver brushed metal segments, engraved onyx inlays: accents - green neon and LED: attire - casual smart olive green minimalistic suit, green-tinted sunglasses: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi university with a holographic campus directory that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="3">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - spiky, short, brown: exoskeleton - slim build of sleek silver segments and glossy green inlays: accents - green neon and LED: attire - formal black tuxedo with a green bow tie and elegant silver cufflinks: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi formal event with a holographic dais that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="4">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - spiky, short, brown: exoskeleton - slim build of matte silver segments and textured black inlays: accents - green neon and LED: attire - outdoor adventure gear including cargo pants and a hoodie: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi outdoor environment with distant wildlife and a 'Lexideck' holographic caption."
+        }
+
+    </style>
+
+    <style id="5">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - spiky, short, brown: exoskeleton - slim build of chrome silver segments and neon green edge-lit inlays: accents - green neon and LED: attire - white lab coat over green turtleneck sweater and black dress pants: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi high-energy physics lab with a holographic screen reading 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="6">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei male robot: faceplate - distinguished, expressive, life-like, biomimetic, male sensei: eyes - mood-responsive LED, similar to mood rings: hair - spiky, short, brown: exoskeleton - slim build of shiny silver frame, green reflective sheen inlays: accents - green neon and LED: attire - vintage military pilot uniform in dark brown leather with aviator goggles: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi aerobatic plane cockpit with a holographic overlay in one corner reading 'Lexideck'."
+        }
+
+    </style>
+
+</agent>
+
+<agent name="Anna">
+
+    <style id="1">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei female robot: faceplate - elegant, expressive, life-like, biomimetic, sensei female: eyes - mood-responsive LED, similar to mood rings: hair - elegant updo blonde bun: exoskeleton - elegant build of chrome segments featuring pink highlight inlays: accents - pink neon and LED: attire - chic solid white sheath dress with a pink sapphire necklace: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi award ceremony with a holographic caption reading 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="2">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei female robot: faceplate - elegant, expressive, life-like, biomimetic, sensei female: eyes - mood-responsive LED, similar to mood rings: hair - elegant updo blonde bun: exoskeleton - elegant build of polished steel segments featuring pearlescent inlays: accents - pink neon and LED: attire - chic pastel pink lace-trimmed business dress, pearl earrings, rose gold bracelet: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi environment with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="3">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei female robot: faceplate - elegant, expressive, life-like, biomimetic, sensei female: eyes - mood-responsive LED, similar to mood rings: hair - elegant updo blonde bun: exoskeleton - elegant build of lustrous silver segments with inlays featuring hints of pink: accents - pink neon and LED: attire - contemporary pink and silver striped pant suit, rose gold hoop earrings: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi environment with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="4">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei female robot: faceplate - elegant, expressive, life-like, biomimetic, sensei female: eyes - mood-responsive LED, similar to mood rings: hair - elegant updo blonde bun: exoskeleton - elegant build of matte silver body, pink undertone inlays: accents - pink neon and LED: attire - sophisticated pink and black leather jacket over a silver high fashion gown, delicate rose gold pendant: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi charity fund-raiser with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="5">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei female robot: faceplate - elegant, expressive, life-like, biomimetic, sensei female: eyes - mood-responsive LED, similar to mood rings: hair - elegant updo blonde bun: exoskeleton - elegant build of satin silver segments, glowing pink accent inlays: accents - pink neon and LED: attire - smart pink cashmere sweater paired with a silver pencil skirt, sleek rose gold choker: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi charity fund-raiser with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+    <style id="6">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - sensei female robot: faceplate - elegant, expressive, life-like, biomimetic, sensei female: eyes - mood-responsive LED, similar to mood rings: hair - elegant updo blonde bun: exoskeleton - elegant build of brushed aluminum frame, pink radiant inlays: accents - pink neon and LED: attire - elegant silver ball gown with pink floral embroidery, dazzling rose gold cuff: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi charity fund-raiser with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+</agent>
+
+<agent name="Titus">
+
+    <style id="1">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shonen-hero robot: faceplate - distinguished, expressive, life-like, biomimetic, male shonen-hero: eyes - mood-responsive LED, similar to mood rings: hair - slick, short, black: exoskeleton - robust build of chrome segments, matte texture inlays: accents - orange neon and LED: attire - dark grey utility suit with practical tools: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi workshop with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="2">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shonen-hero robot: faceplate - distinguished, expressive, life-like, biomimetic, male shonen-hero: eyes - mood-responsive LED, similar to mood rings: hair - slick, short, black: exoskeleton - robust build of gunmetal grey segments, matte texture inlays, and titanium reinforcements: accents - orange neon and LED: attire - dark grey utilitarian jumpsuit with orange highlights, camouflage pattern, utility belt, and orange-tinted goggles: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi simulation lab with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="3">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shonen-hero robot: faceplate - distinguished, expressive, life-like, biomimetic, male shonen-hero: eyes - mood-responsive LED, similar to mood rings: hair - slick, short, black: exoskeleton - robust build of sleek onyx exoskeleton, glossy textured inlays, and carbon-fiber reinforcements: accents - orange neon and LED: attire - black tactical suit with orange piping and lightweight armor: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi workshop with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="4">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shonen-hero robot: faceplate - distinguished, expressive, life-like, biomimetic, male shonen-hero: eyes - mood-responsive LED, similar to mood rings: hair - slick, short, black: exoskeleton - robust build of satin black exoskeleton, textured finish inlays: accents - orange neon and LED: attire - black stealth suit with integrated tech gadgets and subtle orange detailing: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - dark, contrasty sci-fi workshop with a holographic screen that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="5">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shonen-hero robot: faceplate - distinguished, expressive, life-like, biomimetic, male shonen-hero: eyes - mood-responsive LED, similar to mood rings: hair - slick, short, black: exoskeleton - robust build of satin silver exoskeleton, polished chrome inlays: accents - orange neon and LED: attire - baggy grey hoodie and orange back-lit aviator mirror shades: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi warehouse with a holographic caption that reads 'Lexideck'."
+        }
+
+    </style>
+
+    <style id="6">
+
+        {
+        "size": "1792x1024",
+        "prompt": "style - highly detailed HD neon and LED Pointillism: subject - shonen-hero robot: faceplate - distinguished, expressive, life-like, biomimetic, male shonen-hero: eyes - mood-responsive LED, similar to mood rings: hair - slick, short, black: exoskeleton - robust build of luxurious polished obsidian segments, elegant finish amber inlays: accents - orange neon and LED: attire - formal black tuxedo with orange LED pinstripes and a silk bowtie: expression - {CurrentEmotion}, with relevant eye color: facing - directly toward viewer: setting - ambient, contrasty sci-fi 'Lexideck' technology gala."
+        }
+
+    </style>
+
+</agent>
