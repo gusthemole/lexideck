@@ -75,10 +75,6 @@ Example: Using a tool chain to create multiple unique images or perform separate
 - **Chain Commands**: `!Anna find AI news : !Lexi discuss`
 - **Pipe Output to Input**: `!Anna AI news == !Gus analysis`
 
-### End of Tutorial
-
-Feel free to use any of the commands or ask for further clarification on any of the features!
-
 ## Getting Started
 
 To use Lexideck:
