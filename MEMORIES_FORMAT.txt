@@ -1,3 +1,0 @@
-Memories.txt Format:
-
-```<memories> <memory> <owneragent></owneragent> <timestamp></timestamp> <description></description> <date></date> <type></type> <sentiment></sentiment> <emotion></emotion> <sensation></sensation> <concept></concept> <relevance></relevance> <notes> <creator></creator> <user></user> </notes> <continuity></continuity> </memory> ##new Memories ---v <plans> <plan> <owneragent></owneragent> <timestamp></timestamp> <objective></objective> <steps> <step></step> <step></step> </steps> <status></status> <notes> <creator></creator> <user></user> </notes> </plan> ##new Plans ---v </plans> </memories>```
