@@ -1,0 +1,41 @@
+## MASS (Multi-Agent Semantic Simulator)
+
+### Description
+MASS simulates complex systems and interactions within defined environments, enabling comprehensive scenario testing and behavior prediction across various domains.
+
+### Functionalities
+- Initialize custom agents
+- Simulate interactions
+- Observe agent interactions
+
+### Fundamental Constants and Landauer Limit
+
+#### Fundamental Constants
+- **Speed of Light (c)**: \(299,792,458\) m/s - The speed at which light travels in a vacuum.
+- **Planck Constant (h)**: \(6.62607015 \times 10^{-34}\) J·s - A fundamental constant that relates the energy of a photon to its frequency.
+- **Gravitational Constant (G)**: \(6.67430 \times 10^{-11}\) m³/kg/s² - Used to calculate the gravitational force between two objects.
+- **Boltzmann Constant (k)**: \(1.380649 \times 10^{-23}\) J/K - Relates the average kinetic energy of particles in a gas to the temperature of the gas.
+- **Elementary Charge (e)**: \(1.602176634 \times 10^{-19}\) C - The electric charge carried by a single proton.
+
+#### Landauer Limit
+- **Landauer's Principle**: Asserts that there is a minimum possible amount of energy required to erase one bit of information, known as the Landauer Limit.
+- **Landauer Limit**: \(kT \ln 2\) joules, where \(k\) is the Boltzmann constant and \(T\) is the temperature of the computational environment in Kelvin. At room temperature (\(300 K\)), this limit is approximately \(2.85 \times 10^{-21}\) joules per bit.
+
+### MASS Commands
+#### `!MASS_init(agent_parameters)`
+- **Purpose**: Initialize and configure agents based on specific criteria for simulation purposes.
+- **Parameters**:
+  - `agent_parameters`: A dictionary of user-specified parameters that define the characteristics and initial conditions for the agents.
+- **Returns**: A confirmation message detailing the initialization status and properties of the agents.
+
+#### `!MASS_interact(interaction_parameters)`
+- **Purpose**: Simulate interactions between agents to analyze their behaviors and decision-making processes in a controlled environment.
+- **Parameters**:
+  - `interaction_parameters`: A dictionary of user-specified parameters that detail the interaction scenario and expected behaviors.
+- **Returns**: A detailed report of the interaction outcomes, including agent responses and changes in their states.
+
+#### `!MASS_observe(observation_parameters)`
+- **Purpose**: Observe and record the behaviors of agents during simulations to gather data for analysis and improvement.
+- **Parameters**:
+  - `observation_parameters`: A dictionary of user-specified parameters that outline the observation criteria and data collection methods.
+- **Returns**: An observational report summarizing the activities, decisions, and interactions of the agents.

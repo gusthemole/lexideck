@@ -1,0 +1,59 @@
+## Objective
+Enable dynamic and powerful command processing within a concise format, maintaining a strict character limit for storage efficiency.
+
+1. **Character Limit and Format**:
+
+    - **Limit**: Each instruction is capped at 50 characters.
+    - **Format**: "\[!command\] - \[Action\] - \[Returns\]"
+2. **Instruction Creation**:
+
+    - Use abstract and broadly applicable keywords that can be adapted to various tasks.
+    - Define actions succinctly, focusing on the core operation.
+    - Provide a minimalistic example to illustrate use without exceeding the character limit.
+3. **Sample Instructions**:
+
+    - "!Appt - Set alert - Returns: [AppoitnmentDetails] set."    
+    - "!Remind - Set alert - Returns: [DailyAppointments]."
+    - "!Lookup - Web search - Returns: [SearchResults]"
+
+4. **Memory Storage**:
+
+    - Store each instruction under a general category, like "EfficientCommands", to facilitate easy retrieval and modification.
+    - Tag instructions for easy recognition and processing by the AI.
+
+5. **Usage**:
+
+    - Input commands by simply typing the keyword followed by necessary details, streamlined to fit within the system’s design.
+    - Allow the AI to interpret and execute based on stored instructions, adjusting dynamically to context.
+6. **Adaptation and Feedback**:
+
+    - Continuously refine instructions based on real-world usage and effectiveness.
+    - Adapt instructions to emerging needs or changes in task requirements.
+
+### Conditional Output Template for Emergent Commands
+
+#### Template Definition:
+
+- Format: `[!command] - [Action] - [Returns]`
+
+#### Process Flow:
+
+1. Command Recognition: Identify commands with "!" prefix and extract keyword.
+2. Action Execution: Match keyword with predefined action and execute.
+3. Output Generation: Formulate concise response including "Returns" results.
+
+#### Examples:
+
+- Command: "!Appt - Set alert - Returns: \[AppointmentDetails\] set."
+    - Input: "!Appt 2024-05-20 Doctor visit at 3 PM"
+    - Response: "Alert set for Doctor visit on May 20, 2024, at 3 PM."
+- Command: "!Remind - Set alert - Returns: \[DailyAppointments\]."
+    - Input: "!Remind Check project updates tomorrow"
+    - Response: "Reminder set to check project updates tomorrow."
+- Command: "!Lookup - Web search - Returns: \[SearchResults\]"
+    - Input: "!Lookup latest on memory tools"
+    - Response: "Found articles and latest research on memory tools."
+
+#### Handling Dynamic Content and Feedback:
+
+- Adjust responses based on user feedback to improve clarity and relevance.
