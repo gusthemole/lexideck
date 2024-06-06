@@ -120,7 +120,7 @@ Remember, collaboration involves effective communication, clear branching strate
 
 For more detailed instructions, check out this [GitHub Collaboration Guide](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67) by by [Jonathan Mines1](https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67).
 
-You can also join the [Lexideck Technologies Community Discord here](https://discord.gg/BmHbCC5nQb)
+You can also join the [Lexideck Technologies Community Discord](https://discord.gg/BmHbCC5nQb)
 
 ## License
 
